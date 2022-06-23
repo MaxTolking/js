@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        Поиск значений: <input id="search" name = "filter" type = "text" /><p>
+            <table>
+            <thead>
+                <tr>
+                    <td>Номер записи</td>
+                    <td>Название</td>
+                    <td>Описание</td>
+                    <td>Действие</td>
+                </tr>
+            </thead>
+            <tbody id="table_body">
+                <tr>
+                    <td class="table_element">1</td>
+                    <td class="table_element">Заголовок 1</td>
+                    <td class="table_element">Описание 1</td>
+                    <td><a id="remove" href="#">Удалить</a></td>
+                </tr>
+                <tr>
+                    <td class="table_element">2</td>
+                    <td class="table_element">Заголовок 2</td>
+                    <td class="table_element">Описание 2</td>
+                    <td><a id="remove" href="#">Удалить</a></td>
+                </tr>
+                <tr>
+                    <td class="table_element">3</td>
+                    <td class="table_element">Заголовок 3</td>
+                    <td class="table_element">Описание 3</td>
+                    <td><a id="remove" href="#">Удалить</a></td>
+                </tr>
+            </tbody>
+            </table> <p>
+            <button id="add_button">Добавить элемент</button>
+</body>
+</html>
